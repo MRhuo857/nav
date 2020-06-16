@@ -180,5 +180,9 @@ $(document).on("keypress", function (e) {
     }
   }
 });
+$(document).on("keypress", "input", function (e) {
+  console.log("哈哈哈");
+  e.stopPropagation();
+});
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.8afc1337.js.map
+//# sourceMappingURL=main.52a41a45.js.map

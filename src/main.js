@@ -66,3 +66,7 @@ $(document).on("keypress", (e) => {
     }
   }
 });
+$(document).on("keypress", "input", (e) => {
+  console.log("哈哈哈");
+  e.stopPropagation();
+});
